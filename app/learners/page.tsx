@@ -1,6 +1,6 @@
 "use client";
 import NextLink from "next/link";
-import ActveLearners from "@/components/ActveLearners";
+import ActveLearners from "@/components/ActiveLearners";
 import ProjectManagement from "@/components/featureForLearners/ProjectManagement";
 import ProjectsAndCourses from "@/components/featureForLearners/ProjectsAndCourses";
 import VerifiedSkills from "@/components/featureForLearners/VerifiedSkills";

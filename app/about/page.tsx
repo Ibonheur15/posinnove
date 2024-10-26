@@ -10,9 +10,10 @@ import team from '@/public/Onboarding.png';
 import mugisha from '@/public/mugisha.jpg';
 import bonheur from '@/public/Bonheur.jpg';
 import fab from '@/public/fab.jpg';
-import jeanette from '@/public/jeannette.png';
+import jeanette from '@/public/jeannette.jpg';
 import paradis from '@/public/paradis.jpg';
 import byuma from '@/public/byuma.jpg';
+import kayode from '@/public/kayode.png';
 import { Linkedin } from 'lucide-react';
 import Link from 'next/link';
 export default function AboutPage() {
@@ -81,6 +82,12 @@ export default function AboutPage() {
       image: mugisha,
       linkedin: 'https://www.linkedin.com/in/mugisha-joseph-23087a261/',
     },
+    {
+      names: 'Ernest Kayigire',
+      role: 'Software Developer',
+      image: kayode,
+      linkedin: 'https://www.linkedin.com/in/kayigire-erneste-662559263/',
+    },
   ];
   return (
     <div className="mt-20">
@@ -123,7 +130,13 @@ export default function AboutPage() {
         ))}
       </div>
       <div className="flex justify-center items-center max-sm:flex-col gap-32 w-full my-10 max-sm:gap-10">
-        <Image className="" src={Image2.src} alt="Image" width={300} height={200} />
+        <Image
+          className=""
+          src={Image2.src}
+          alt="Image"
+          width={300}
+          height={200}
+        />
         <div className="w-1/2 max-sm:w-full">
           <h1 className="text-primary font-semibold text-3xl">Our Story</h1>
           <p>
@@ -173,7 +186,7 @@ export default function AboutPage() {
           >
             <Image
               alt="Team member"
-              className=" object-cover mx-auto"
+              className="object-cover mx-auto"
               height={330}
               src={member.image.src}
               width={300}
@@ -197,7 +210,7 @@ export default function AboutPage() {
                 radius="lg"
                 size="sm"
               >
-                <Linkedin size={20} />
+                <Linkedin size={15} />
               </Button>
             </CardFooter>
           </Card>
