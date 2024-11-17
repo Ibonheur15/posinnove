@@ -1,7 +1,7 @@
 import React from "react";
 import ActiveLearnersCard from "./common/ActiveLearnersCard";
 
-const ActveLearners = () => {
+const ActiveLearners = () => {
 	const activeLearnerData = [
 		{
 			number: 200,
@@ -23,4 +23,4 @@ const ActveLearners = () => {
 	);
 };
 
-export default ActveLearners;
+export default ActiveLearners;

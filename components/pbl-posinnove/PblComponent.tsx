@@ -26,7 +26,7 @@ const PblComponent = () => {
                   Development!
                 </b>
               </p>
-              <div className="mt-5 flex items-center ">
+              {/* <div className="mt-5 flex items-center ">
                 <Button
                   href="https://form.jotform.com/242634760229559"
                   as={Link}
@@ -37,7 +37,7 @@ const PblComponent = () => {
                 >
                   Apply now
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -55,8 +55,8 @@ const PblComponent = () => {
       <AboutPblCard />
       <HighlightCard />
       <Eligibility />
-      <ProgramFeesCard />
-      <DeadLine />
+      {/* <ProgramFeesCard /> */}
+      {/* <DeadLine /> */}
     </div>
   );
 };

@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
           <div className='w-[40%] max-md:w-full justify-center flex flex-col gap-8'>
               <div>
-                  <h1 className='mt-4 text-5xl max-md:text-center max-md:text-3xl g-tight max-mdfont-normal'>Empowering <span className='font-semibold text-primary'>Your</span> Learning Journey with <span className='font-semibold text-primary'>Real-World Experience</span></h1>
+                  <h1 className='mt-4 text-3xl ml-2 max-md:text-3xl g-tight max-md font-semibold'>Empowering <span className='font-semibold text-primary'>Your</span> Learning Journey with <span className='font-semibold text-primary'>Real-World Experience</span></h1>
                   <div>
                       <div className='max-md:hidden'>
                           <Line />
