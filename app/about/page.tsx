@@ -176,13 +176,13 @@ export default function AboutPage() {
       <p className="text-primary text-center my-8 text-2xl font-semibold">
         Leadership Team
       </p>
-      <div className="mx-44 grid grid-cols-3 gap-4 max-sm:mx-0 max-lg:mx-32 max-sm:justify-center max-sm:grid-cols-1 max-lg:grid-cols-2">
+      <div className="md:mx-44 mx-auto grid grid-cols-3 gap-4 max-sm:justify-items-center max-sm:grid-cols-1 max-lg:grid-cols-2">
         {teamMembers.map((member, i) => (
           <Card
             key={i}
             isFooterBlurred
             radius="lg"
-            className="border-none h-[18rem] w-[17rem] max-sm:w-full max-sm:h-[18rem]"
+            className="border-none h-[18rem] md:w-[17rem]"
           >
             <Image
               alt="Team member"
