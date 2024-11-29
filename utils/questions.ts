@@ -2,7 +2,7 @@ export const questions = [
   {
     title: 'What is posinnove?',
     description:
-      'Posinnove is the bridge between education and real-world digital skills. We connect students with businesses for project-based learning. Students gain experience, build portfolios, and increase their employability, while businesses access a talent pool and get project support.',
+      'Posinnove bridges the gap between education and industry by using real-world, data-driven projects to help learners gain practical experience, build portfolios, and boost employability in digital skills.',
   },
   {
     title: 'What kind of projects can I find on Posinnove?',
